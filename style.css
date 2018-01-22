@@ -1,28 +1,38 @@
 body {
-    background-color: white;
-    margin: 0px auto 40px auto;
-    width: 50%;
+    background-color: #192231;
 }
 
-header {
-  text-align: center;
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
 }
 
 h1 {
-    color: black;
+    color: white;
     font-family: Roboto;
-    font-weight: 300;
+    font-weight: 100;
     font-size: 45px;
-    text-shadow: 1px;
     margin: 40px 40px 40px 40px;
+    text-align: center;
 }
 
 .article {
+  color: white;
   font-family:Roboto;
+  font-weight: 100;
+  font-size: 18px;
   line-height: 150%;
   letter-spacing: 1px;
   text-align: justify;
+  margin: 70px 150px 50px 150px;
+}
 
+.graphs {
+  margin: 50px 300px;
+  width:50%;
+  align-content: center;
 }
 
 /*----- Tabs -----*/
@@ -46,31 +56,32 @@ list-style:none;
 }
 
 .tab-links a {
-padding:9px 15px;
+padding:9px 21px;
 display:inline-block;
 border-radius:3px 3px 0px 0px;
-background:white;
-font-size:14px;
-font-weight:600;
-font-family:Helvetica;
-color:black;
+background:#98878f;
+font-size:16px;
+font-family:Roboto;
+font-weight:100;
+color:white;
 transition:all linear 0.15s;
 }
 
 .tab-links a:hover {
-background:??????;
+background: #98878f;
 text-decoration:none;
 }
 
 li.active a, li.active a:hover {
-background:white;
-color:black;
+background:#98878f;
+color:white;
 }
 
 /*----- Content of Tabs -----*/
 .tab-content {
 padding:15px;
 border-radius:3px;
+margin: 40px 40px 40px 40px;
 box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
 background:white;
 }
@@ -81,4 +92,8 @@ display:none;
 
 .tab.active {
 display:block;
+}
+
+#datawrapper-chart-0iyFh {
+ height: 200px !important; 
 }

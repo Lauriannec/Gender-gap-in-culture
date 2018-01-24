@@ -23,14 +23,14 @@ h1 {
   font-family:Roboto;
   font-weight: 100;
   font-size: 18px;
-  line-height: 150%;
+  line-height: 120%;
   letter-spacing: 1px;
   text-align: justify;
-  margin: 70px 150px 50px 150px;
+  margin: 20px 160px 25px 160px;
 }
 
 .graphs {
-  margin: 50px 300px;
+  margin: auto 300px auto 300px;
   width:50%;
   align-content: center;
 }

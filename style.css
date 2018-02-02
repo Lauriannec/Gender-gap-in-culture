@@ -122,3 +122,13 @@ display:block;
 #datawrapper-chart-0iyFh {
  height: 200px !important; 
 }
+
+.footnote {
+  color: #98878f;
+  font-family:Lato;
+  font-weight: 100;
+  font-size: 17px;
+  line-height: 120%;
+  letter-spacing: 1px;
+  margin: 20px 160px 25px 160px;
+}

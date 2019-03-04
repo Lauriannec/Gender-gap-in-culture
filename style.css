@@ -62,7 +62,7 @@ a {
 
 /*----- Tabs -----*/
 .tabs {
-width:100%;
+max-width: 600px;
 display:inline-block;
 }
 

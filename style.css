@@ -56,13 +56,13 @@ a {
 
 .graphs {
   margin: auto 300px auto 300px;
-  max-width: 600px;
+  max-width: 650px;
   align-content: center;
 }
 
 /*----- Tabs -----*/
 .tabs {
-max-width: 600px;
+max-width: 100%;
 display:inline-block;
 }
 

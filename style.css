@@ -62,8 +62,9 @@ a {
 
 /*----- Tabs -----*/
 .tabs {
-max-width: 100%;
+max-width: 620;
 display:inline-block;
+align-content: center;
 }
 
 /*----- Tab Links -----*/
@@ -75,9 +76,9 @@ content:'';
 }
 
 .tab-links li {
-margin:0px 5px;
-float:left;
-list-style:none;
+margin: auto 5px;
+float: left;
+list-style: none;
 }
 
 .tab-links a {
